@@ -192,7 +192,7 @@ export const siteConfig: SiteConfig = {
 		mobileTop: true, // 手机端顶部 TOC 按钮
 		desktopSidebar: true, // 电脑端右侧边栏 TOC
 		floating: true, // 悬浮 TOC 按钮
-		depth: 5, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
+		depth: 3, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
 		useJapaneseBadge: true, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
 	},
 	showCoverInContent: true, // 在文章内容页显示文章封面
@@ -292,7 +292,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "晚安",
 	bio: "一个颓丧的人",
 	typewriter: {
@@ -390,7 +390,7 @@ export const shareConfig: ShareConfig = {
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题，填空使用i18n字符串Key.announcement
 	content: "这里什么都没有", // 公告内容
-	closable: true, // 允许用户关闭公告
+	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
 		text: "了解更多", // 链接文本
@@ -400,7 +400,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 	showFloatingPlayer: true, // 显示悬浮播放器 UI
 	floatingEntryMode: "fab", // 悬浮入口模式："default" 为独立悬浮播放器，"fab" 为集成到通用 FAB 组
 	mode: "local", // 音乐播放器模式，可选 "local" 或 "meting"
