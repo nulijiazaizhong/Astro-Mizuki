@@ -40,7 +40,7 @@ export default defineConfig({
 
 	integrations: [
 		umami({
-			shareUrl: false,
+			shareUrl: "https://static.goodnightan.com/share/SjfaaxZ0gZI4ewAL",
 		}),
 		swup({
 			theme: false,
