@@ -202,7 +202,7 @@ export const siteConfig: SiteConfig = {
 		{
 			src: "/favicon/wan.ico", // 图标文件路径
 			//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-			sizes: "32x32", // 可选，图标大小
+			//sizes: "32x32", // 可选，图标大小
 		},
 	],
 
