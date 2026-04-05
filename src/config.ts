@@ -257,6 +257,12 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
+		{
+			name: "技能",
+			url: "/skills/",
+			icon: "material-symbols:info",
+			children: [LinkPreset.About, LinkPreset.Friends],
+		},
 		// 支持自定义导航栏链接，支持多级菜单
 		{
 			name: "关于",
