@@ -263,6 +263,11 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:build-circle",
 		},
 		{
+			name: "项目",
+			url: "/projects/",
+			icon: "material-symbols:work",
+		},
+		{
 			name: "设备",
 			url: "/devices/",
 			icon: "material-symbols:devices",
