@@ -260,14 +260,18 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "技能",
 			url: "/skills/",
-			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			icon: "material-symbols:build-circle",
+		},
+		{
+			name: "设备",
+			url: "/devices/",
+			icon: "material-symbols:devices",
 		},
 		// 支持自定义导航栏链接，支持多级菜单
 		{
 			name: "关于",
-			url: "/content/",
-			icon: "material-symbols:info",
+			url: "/about/",
+			icon: "material-symbols:person",
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 		{
@@ -287,11 +291,6 @@ export const navBarConfig: NavBarConfig = {
 					icon: "mdi:server",
 					external: true,
 				},
-				// {
-				// 	name: "时间线",
-				// 	url: "/timeline/",
-				// 	icon: "material-symbols:timeline",
-				// },
 			],
 		},
 	],
