@@ -215,7 +215,7 @@ export const siteConfig: SiteConfig = {
 			// 指定为英文字体则无论字体包含多大范围，都只会保留 ASCII 字符子集
 			fontFamily: "MapleMono-NF-CN-Light”,LikeJianJianTi-Regular",
 			fontWeight: "400",
-			localFonts: ["LikeJianJianTi-Regular.ttf"],
+			localFonts: ["MapleMono-NF-CN-Light.ttf"],
 			enableCompress: true, // 启用字体子集优化，减少字体文件大小
 		},
 		cjkFont: {
