@@ -34,10 +34,10 @@
   font-display: swap;
 }
 
-/* 导入 品如手写体 字体 */
+/* 导入 MapleMono-NF-CN-Light 字体 */
 @font-face {
-  font-family: "pinrushouxie";
-  src: url("/fonts/pinrushouxie.ttf") format("truetype");
+  font-family: "MapleMono-NF-CN-Light";
+  src: url("/fonts/MapleMono-NF-CN-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
