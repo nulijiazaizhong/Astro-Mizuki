@@ -19,15 +19,15 @@
 请确保你的站点在[itdog的网站测速](https://www.itdog.cn/http/)中的总耗时不超过3s，然后参考以下格式将信息发送到[邮箱](mailto:goodnight@goodnightan.email)进行申请：
 
 ## 申请格式
-```json
-    {
-        id: 8,
-        itle: "晚安的静谧小屋", // 网站名称 
-        imgurl: "https://blog.goodnightan.com/_astro/avatar.BY4n5X0D_zFPbO.webp", // 头像Logo
-        desc: "学习、游玩、成长总结", // 简介描述
-        siteurl: "https://blog.goodnightan.com", // 网站地址
-        tags: ["友情链接"],
-    },
+```
+ {
+    id: 8,
+    itle: "晚安的静谧小屋", // 网站名称 
+    imgurl: "https://blog.goodnightan.com/_astro/avatar.BY4n5X0D_zFPbO.webp", // 头像Logo
+    desc: "学习、游玩、成长总结", // 简介描述
+    siteurl: "https://blog.goodnightan.com", // 网站地址
+    tags: ["友情链接"],
+ },
 ```
 
 ## 申请方式

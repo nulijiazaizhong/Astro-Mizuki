@@ -17,7 +17,7 @@ export const friendsData: FriendItem[] = [
 		title: "Srlily",
 		imgurl: "https://avatars.githubusercontent.com/u/61527043?v=4&size=64",
 		desc: "只会一点点的萌新",
-		siteurl: "https://github.com/Srlily",
+		siteurl: "https://blog.srlily.com",
 		tags: ["朋友"],
 	},
 	{
@@ -63,7 +63,7 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 6,
 		title: "LsAng",
-		imgurl: "https://llds.cloud/_nuxt/avatar.DCJjbfvc.gif",
+		imgurl: "https://llds.cloud/lsang.webp",
 		desc: "学习、探索中",
 		siteurl: "https://llds.cloud",
 		tags: ["友情链接"],
