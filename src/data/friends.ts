@@ -13,9 +13,9 @@ export interface FriendItem {
 // 友情链接数据
 export const friendsData: FriendItem[] = [
 	{
-		id: 0,
+		id: 999,
 		title: "Srlily",
-		imgurl: "https://avatars.githubusercontent.com/u/61527043?v=4&size=64",
+		imgurl: "https://blog.srlily.com/_astro/avatar.DFdqkuqC_GB96Y.webp",
 		desc: "只会一点点的萌新",
 		siteurl: "https://github.com/Srlily",
 		tags: ["朋友"],
